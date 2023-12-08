@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>회원가입</title>
+</head>
+
+<body>
+  <form>
+    <div id="top">
+      <h2>회원가입</h2>
+      <fieldset>
+        <legend>회원가입 하는방법</legend>
+        아래 목록에 맞게 작성 해주시면 됩니다.
+      </fieldset><br><br>
+
+      ID 입력란<br>
+      <input placeholder="최대 10자" required maxlength="10" type="text"><br><br>
+      PW 입력란<br>
+      <input placeholder="최대 20자" required maxlength="20" type="password"><br><br>
+      EMAIL 입력란<br>
+      <input required type="text">@<input required list="email_list">
+      <datalist id="email_list">
+        <option value="naver.com"></option>
+        <option value="daum.net"></option>
+        <option value="gmail.com"></option>
+        <option value="hanmail.net"></option>
+        <option value="kakao.com"></option>
+        <option value="직접입력"></option>
+      </datalist><br><br>
+      연락처 입력란<br>
+      <input required type="tel"><br><br>
+      생년월일<br>
+      <input type="date"> <br><br><br><br>
+
+      <input type="button" value="회원가입 완료"> &nbsp;<input type="reset"><br><br>
+     <a href="Q10-3.HTML"><input type="button" value="홈페이지 이동"></a>
+
+    </div>
+  </form>
+</body>
+
+</html>
